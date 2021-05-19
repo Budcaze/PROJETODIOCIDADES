@@ -4,5 +4,5 @@ import com.github.budcaze.citiesapi.countries.Country;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CountryRepository extends JpaRepository<Country, Long> {
-    //Ygor é gay
+    
 }
