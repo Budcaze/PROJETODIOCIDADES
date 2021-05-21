@@ -1,8 +1,8 @@
-package com.github.budcaze.citiesapi.repository;
+package com.github.budcaze.citiesapi.countries.repository;
 
 import com.github.budcaze.citiesapi.countries.Country;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CountryRepository extends JpaRepository<Country, Long> {
-    
+
 }

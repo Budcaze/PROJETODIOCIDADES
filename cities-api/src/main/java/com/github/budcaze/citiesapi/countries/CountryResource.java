@@ -1,7 +1,7 @@
-package com.github.budcaze.citiesapi;
+package com.github.budcaze.citiesapi.countries;
 
 import com.github.budcaze.citiesapi.countries.Country;
-import com.github.budcaze.citiesapi.repository.CountryRepository;
+import com.github.budcaze.citiesapi.countries.repository.CountryRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
@@ -10,12 +10,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
 import java.util.Optional;
 
 
 @RestController
-@RequestMapping("/countries")
+@RequestMapping("/paises")
 public class CountryResource {
 
     private CountryRepository repository;
