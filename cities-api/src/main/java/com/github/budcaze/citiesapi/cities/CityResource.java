@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("cities")
+@RequestMapping("/cidades")
 public class CityResource {
 
     private final CityRepository repository;
